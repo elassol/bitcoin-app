@@ -9,7 +9,7 @@ export const TransactionWrapper = styled.ul`
 export const TransactionLine = styled.li`
   width: 100%;
   display: flex;
-  flex-flow: row wrap; 
+  flex-flow: row wrap;
   align-content: center;
   justify-content:  flex-start;
   border-bottom: 1px solid #ededed;
@@ -21,5 +21,11 @@ export const TransactionLine = styled.li`
 
   > span {
     padding: 0 8px;
+    min-width: 200px;
+
   }
+`
+export const DateCell = styled.span`
+display: block;
+width: 25%;
 `
