@@ -9,12 +9,24 @@ const Transactions = () => {
   return (
     <TransactionWrapper>
       {
-        transactionsData.map((transaction) => (   
+        transactionsData.map((transaction) => (
           <TransactionLine key={transaction.Date}>
-            <span>{transaction.Date} </span>
-            <span>£{transaction.price} </span>
-            <span>BTC {transaction.btcAmount} </span>
-            <span>{transaction.btcSpotprice} </span>
+            <span>
+              {transaction.Date}
+              {' '}
+            </span>
+            <span>
+              £
+              {transaction.price} 
+            </span>
+            <span>
+              BTC
+              {transaction.btcAmount} 
+            </span>
+            <span>
+              {transaction.btcSpotprice}
+              {' '}
+            </span>
           </TransactionLine>
         ))
 

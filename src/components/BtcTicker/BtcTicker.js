@@ -25,8 +25,21 @@ const BtcTicker = () => {
   return (
     <div>
       <hr />
-      {price ? <p><strong>{price.base}:</strong> £{roundPrice(price.amount)}</p> : <p>loading data ...</p>}
-      <span>Has error: {JSON.stringify(hasError)}</span>
+      {price ? (
+        <p>
+          <strong>
+            {price.base}
+            :
+          </strong>
+          {' '}
+          £
+          {roundPrice(price.amount)}
+        </p>
+) : <p>loading data ...</p>}
+      <span>
+        Has error:
+        {JSON.stringify(hasError)}
+      </span>
     </div>
   )
 }
