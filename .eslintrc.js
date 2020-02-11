@@ -15,5 +15,9 @@ module.exports = {
   "parser": "babel-eslint",
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": false,
+    "react/jsx-filename-extension": false,
+    "react/prefer-stateless-function": false,
   }
 };

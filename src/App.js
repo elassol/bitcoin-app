@@ -1,21 +1,14 @@
 import React from 'react'
 
-import BtcTicker from './components/BtcTicker/BtcTicker'
-import Transactions from './components/Transactions/Transactions'
+import BtcTicker from './components/BtcTicker/BtcTicker';
+import Transactions from './components/Transactions/Transactions';
+import AppHeader from './components/AppHeader/AppHeader';
 import './App.css'
 
 function App () {
   return (
     <div className='App'>
-
-
-      <p>
-        Edit 
-        {' '}
-        <code>src/App.js</code>
-        {' '}
-        and save to reload.
-      </p>
+      <AppHeader />
       <BtcTicker />
       <a
         className='App-link'
