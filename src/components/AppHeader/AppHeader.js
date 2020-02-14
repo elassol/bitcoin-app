@@ -1,12 +1,10 @@
 import React from 'react';
-import { ReactComponent as Logo } from './logo.svg';
-import { HeaderWrapper } from './AppHeader.style';
+import { HeaderWrapper, HeaderTitle } from './AppHeader.style';
 
 const AppHeader = () => {
   return (
     <HeaderWrapper>
-      <Logo className='App-logo' alt='logo' />
-      <h1>online portfolio tracker</h1>
+      <HeaderTitle>Portfolio tracker</HeaderTitle>
     </HeaderWrapper>
   )
 }

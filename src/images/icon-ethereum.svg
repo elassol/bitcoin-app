@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 99.2 99.2" preserveAspectRatio="xMinYMin meet">
+  <g>
+    <circle fill="#FFFFFF" class="st0" />
+    <path fill="#4E8EE9" class="st1" d="M49.6,9.6c-22.1,0-40,17.9-40,40s17.9,40,40,40s40-17.9,40-40S71.7,9.6,49.6,9.6z M49.1,76.1L33.3,53.7
+      L49.1,63V76.1z M49.1,59.8l-16-9.4l16-7V59.8z M49.1,42.3l-15.4,6.8l15.4-26V42.3z M50.1,23.1l15.6,26l-15.6-6.9
+      C50.1,42.3,50.1,23.1,50.1,23.1z M50.1,76.1V63l15.8-9.3L50.1,76.1z M50.1,59.8V43.4l16,7L50.1,59.8z"/>
+  </g>
+</svg>
