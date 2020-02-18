@@ -8,7 +8,13 @@ import { theme } from '../src/styles/theme';
 import './App.css';
 
 function App () {
-  const [investment, setInvestment] = useState({})
+  const [investment, setInvestment] = useState({});
+
+  const initialState = {
+    investment: null,
+    btcHoldings: null,
+    btcPrice: null
+  };
 
   const investmentBTC = (array) => {
     array.reduce((a, b) => a + b, 0);
